@@ -1,0 +1,237 @@
+body{
+font-family: Poppins, sans-serif;
+background-color: #F5F5F5;
+margin:0;
+text-align: center; 
+}
+
+.title{
+color: chocolate;    
+}
+
+section{
+padding: 20px 0;
+}
+
+div {
+margin: 5px 15px;
+}
+
+#profile-image{
+width:60%;
+margin: 35px 0 0 0;
+}
+
+header>p{
+margin: 8%;
+}
+
+header>nav{
+display:flex;
+flex-direction: column;  
+}
+
+#portfolio {
+ background-color: white;
+}
+
+.button{
+padding: 12px 15px;
+margin:5px 25px;
+background-color: white;
+}
+
+a {     
+    display: inline-block;     
+    position: relative;    
+    z-index: 1;     
+    padding: 2rem;     
+    margin: -2rem; 
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+ }
+
+ a:hover{
+color:blue;
+ }
+
+.image{
+padding: 10px 0;
+width: 100%;
+}
+
+footer{
+display:flex;
+justify-content: space-between;
+margin: 2px 25px;
+border-top: 1px dotted black;
+}
+
+h2, a{
+text-transform: uppercase;
+}
+
+p{
+padding:0 15px;
+}
+
+.bottom-navigation{
+display:none;
+}
+
+#email{
+    padding:0;
+    margin:0;
+    text-transform: lowercase;
+}
+
+#skills{
+background-color: rgb(253, 219, 224) ;
+}
+
+#skills>h2{
+padding: 20px;
+}
+
+@media(min-width:768px){
+
+.title {
+flex:1 0 100%;
+margin:0;
+padding:0 0 40px 0;
+}
+
+#top-navigation {
+flex-direction: row;  
+justify-content: center;
+flex-grow: 1;
+}
+
+.button{
+background-color: #F5F5F5;
+}
+
+.presentation{
+display:flex;
+box-sizing: border-box;
+margin: 30px;
+column-gap: 2rem;
+}
+    
+    
+#profile-image {
+order:2;
+box-sizing: border-box;
+width:40%;
+margin:0;
+padding:0;
+}
+        
+#profile {
+justify-content: flex-start;
+order: 1;
+text-align: left;
+width:60%;
+margin:0;
+padding:0;
+}
+
+.container{
+ display:flex;
+ flex-wrap: wrap;
+ column-gap: 15px;
+ padding:60px 30px;
+ }
+        
+.item{
+flex-grow: 1;
+width: calc(50% - 30px);
+margin: 5px 0;
+}   
+
+.header{
+padding-bottom: 30px;
+font-size: large;
+}
+
+#contact{
+padding: 2em 17% 5rem;
+font-size: large;
+}
+
+#contact-p{  
+margin-top: 0; 
+margin-bottom: 40px;
+}
+
+#back-to-top{
+display:none;
+}
+
+.bottom-navigation{
+display: flex;
+}
+
+.bottom-navigation>.button{
+margin:0;
+}
+
+body{
+padding-top: 50px;
+padding-bottom:50px;
+}
+}
+
+@media(min-width:1024px){
+
+ .item{
+flex-grow: 1;
+width: calc(33% - 30px);
+margin: 5px 0;
+}   
+
+#portfolio{
+margin: 2em;
+}
+
+#contact{
+padding: 2em 25% 5rem;
+}
+
+.header{
+margin:2em; 
+}
+
+.presentation{
+column-gap: 3rem;
+}
+
+#title-and-nav{
+display: flex;
+margin: 30px;
+justify-content: space-between;
+align-items: center;
+}
+
+#main-title{
+padding:0;
+text-align: left;
+flex:1 0 10%;
+
+}
+
+#top-navigation{
+text-align: right;
+}
+
+.button{
+padding:0 5px;
+margin:0;    
+}
+
+#skills{
+margin:30px;    
+}
+
+}
